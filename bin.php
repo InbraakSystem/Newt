@@ -28,7 +28,7 @@
 </html>
 
 <?php
-	//error_reporting(0);
+	error_reporting(0);
 	$bin = $_POST["bin"];
 	if(!empty($bin)){
 		$ch = curl_init();
@@ -51,15 +51,4 @@
 	}else{
 		echo "";
 	}
-
-	/*
-		<a href="https://ccbins.org/contact.php" target="_blank"><img src="images.jpeg" style="position: fixed;  bottom: 0; width: 10%; padding: 20px; right:20px;"></a>
-
-		[1] => 544731 
-		[2] => http://www.ri.santander.com.br 
-		[3] => MASTERCARD 
-		[4] => GOLD 
-		[5] => BRAZIL 
-		[6] => BANCO SANTANDER (BRASIL), S.A.
-	*/
 ?>
